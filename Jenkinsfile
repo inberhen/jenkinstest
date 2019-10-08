@@ -19,7 +19,7 @@ pipeline {
             steps {
                 echo 'Deploying....'
 		sh 'ls -la'
-		sh 'ifconfig'
+		sh 'ip a'
             }
         }
     }
